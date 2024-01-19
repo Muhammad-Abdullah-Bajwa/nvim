@@ -1,12 +1,12 @@
 local M =
 {
-    "miikanissi/modus-themes.nvim",
-    priority = 1000,
-    lazy = false, -- make sure we load this during startup if it is your main colorscheme}
+      "zootedb0t/citruszest.nvim",
+      lazy = false,
+      priority = 1000,
 }
 
 function M.config()
-    vim.cmd.colorscheme "modus_vivendi"
+    vim.cmd.colorscheme "citruszest"
 end
 
 return M
