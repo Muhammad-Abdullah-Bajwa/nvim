@@ -28,5 +28,6 @@ spec("user.neoscroll");
 spec("user.navbuddy");
 spec("user.bqf");
 spec("user.harpoon");
+spec("user.hardtime");
 
 require("user.lazy");
