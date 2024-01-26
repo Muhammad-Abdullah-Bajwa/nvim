@@ -70,6 +70,7 @@ function M.config()
         "bashls",
         "jsonls",
         "clangd",
+        "rust_analyzer",
     }
 
     local default_diagnostic_config = {
